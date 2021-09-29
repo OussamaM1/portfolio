@@ -19,6 +19,7 @@ const webLinks = [
   { name: "About", path: "/about" },
   { name: "Tech Stack", path: "/tech-stack" },
   { name: "Projects", path: "/projects" },
+  { name: "Achievements", path: "/achievements" },
 ];
 
 interface NavLinkProps {
@@ -73,13 +74,7 @@ export default function Topnav() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Avatar
-                as={Link}
-                size={"sm"}
-                href={"/"}
-                src={User}
-                // src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
-              />
+              <Avatar as={Link} size={"sm"} href={"/"} src={User} />
             </Box>
             <HStack
               as={"nav"}
