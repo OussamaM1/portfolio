@@ -1,7 +1,6 @@
 import { Box } from "@chakra-ui/layout";
 import { HashRouter as Router } from "react-router-dom";
 import Footer from "../components/Footer";
-import Home from "../components/Home";
 import Navigation from "../components/Navigation";
 import Topnav from "../components/Topnav";
 

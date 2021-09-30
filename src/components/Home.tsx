@@ -32,9 +32,9 @@ const Home = () => {
             mb={2}
             textAlign="left"
           >
-            My name is Oussama , i'm a software engineer student , Competitive
-            programming enthusiast and a chess player, Currently looking for a
-            graduate internship opportunity.
+            My name is Oussama , I'm a software engineering student ,
+            Competitive programming enthusiast and a chess player, Currently
+            looking for a graduate internship opportunity.
           </Box>
         </Box>
       </Flex>
