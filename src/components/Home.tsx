@@ -1,4 +1,4 @@
-import { Flex, Avatar, Box, Image } from "@chakra-ui/react";
+import { Flex, Avatar, Box, Image, Divider } from "@chakra-ui/react";
 import User from "../assets/images/user.jpg";
 
 const Home = () => {
@@ -25,8 +25,8 @@ const Home = () => {
           </Box>
 
           <Box
-            as="h2"
-            fontSize="xl"
+            as="h3"
+            fontSize="lg"
             fontWeight="400"
             mt={5}
             mb={2}
@@ -53,6 +53,25 @@ const Home = () => {
       <Box as="h2" fontSize="sm" fontWeight="400" mt={2}>
         <b>Note:</b> Top languages is only a metric of the languages my public
         code consists of and doesn't reflect experience or skill level.
+      </Box>
+      <Divider mt={4} />
+      <Box>
+        <Box
+          as="i"
+          color="gray.500"
+          fontSize="sm"
+          fontWeight="400"
+          textAlign="left"
+          mt={2}
+        >
+          My contributions in the last year
+        </Box>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={3} mt={3}>
+          <Image
+            src="https://ghchart.rshah.org/oussamaM1"
+            alt="Oussama's Github chart"
+          />
+        </Box>
       </Box>
     </Flex>
   );

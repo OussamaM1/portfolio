@@ -9,10 +9,6 @@ const Layout = () => {
   return (
     <Router>
       <Topnav />
-      {/* <img
-        src="https://ghchart.rshah.org/oussamaM1"
-        alt="Oussama's Github chart"
-     />*/}
       <Box
         textAlign="center"
         fontSize="xl"
@@ -21,7 +17,7 @@ const Layout = () => {
         mx="auto"
       >
         <Box pt={10} pb={10}>
-          <Home />
+          <Navigation />
         </Box>
       </Box>
 

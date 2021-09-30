@@ -1,26 +1,26 @@
 import { Route, Switch, Redirect } from "react-router-dom";
+import About from "./About";
+import Achievements from "./Achievements";
+import Home from "./Home";
+import TechStack from "./TechStack";
 
-const routes = [
-  { path: "/", exact: true, name: "Home" },
-  { path: "/about", exact: true, name: "About" },
+interface Links {
+  path: string;
+  exact: boolean;
+  name: string;
+  component: any;
+}
+
+const routes: Links[] = [
+  { path: "/", exact: true, name: "Home", component: Home },
+  { path: "/about", exact: true, name: "About", component: About },
   {
     path: "/achievements",
     exact: true,
     name: "Achievements",
+    component: Achievements,
   },
-  {
-    path: "/blog/notebook-app",
-    exact: true,
-    name: "Post",
-  },
-  {
-    path: "/open-source",
-    exact: true,
-    name: "OpenSource",
-  },
-  { path: "/blog", exact: true, name: "Blog" },
-  { path: "/tech-stack", exact: true, name: "Tools" },
-  { path: "/story-timeline", exact: true, name: "My Story" },
+  { path: "/tech-stack", exact: true, name: "Tools", component: TechStack },
 ];
 const Navigation = () => {
   return (
@@ -30,7 +30,7 @@ const Navigation = () => {
           key={idx}
           exact={route.exact}
           path={route.path}
-          //render={props => <route.component {...props} />}
+          render={(props) => <route.component {...props} />}
         />
       ))}
       <Redirect to="/" />

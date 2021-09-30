@@ -74,7 +74,7 @@ export default function Topnav() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Avatar as={Link} size={"sm"} href={"/"} src={User} />
+              <Avatar as={Link} size={"sm"} href={"/protfolio"} src={User} />
             </Box>
             <HStack
               as={"nav"}
