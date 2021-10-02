@@ -2,6 +2,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import About from "./About";
 import Achievements from "./Achievements";
 import Home from "./Home";
+import Projects from "./Projects";
 import TechStack from "./TechStack";
 
 interface Links {
@@ -21,6 +22,7 @@ const routes: Links[] = [
     component: Achievements,
   },
   { path: "/tech-stack", exact: true, name: "Tools", component: TechStack },
+  { path: "/projects", exact: true, name: "Projects", component: Projects },
 ];
 const Navigation = () => {
   return (

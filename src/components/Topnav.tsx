@@ -73,9 +73,11 @@ export default function Topnav() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            <Box>
-              <Avatar as={Link} size={"sm"} href={"/portfolio"} src={User} />
-            </Box>
+            <Link to="/portfolio" as={RouterNavLink}>
+              <Box>
+                <Avatar size={"sm"} src={User} />
+              </Box>
+            </Link>
             <HStack
               as={"nav"}
               spacing={4}
