@@ -150,6 +150,7 @@ const About = () => {
             period={e.period}
             logo={e.logo}
             alt={e.alt}
+            description={e.description}
           />
         ))}
       </VStack>
