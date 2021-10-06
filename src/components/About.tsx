@@ -19,10 +19,11 @@ interface CardProps {
   period: string;
   logo: string;
   alt: string;
+  description?: string;
 }
 
 const Card = (props: CardProps) => {
-  const { title, role, skills, period, logo, alt } = props;
+  const { title, role, skills, period, logo, alt, description } = props;
   return (
     <Box
       px={4}
@@ -45,13 +46,14 @@ const Card = (props: CardProps) => {
             src={logo}
             alt={alt}
           />
-          <Stack spacing={2} pl={3} align="left">
+          <Stack spacing={1} pl={3} align="left">
             <Heading align="left" fontSize={15}>
               {title}
             </Heading>
             <Text as="i" align="left" fontSize="sm">
               {role}
             </Text>
+
             <Stack
               spacing={1}
               mt={3}
@@ -86,6 +88,9 @@ const Card = (props: CardProps) => {
           </Tag>
         ))}
       </Stack>
+      <Text p={3} align="left" fontSize="sm">
+        {description}
+      </Text>
     </Box>
   );
 };
@@ -117,6 +122,7 @@ const About = () => {
             period={company.period}
             logo={company.logo}
             alt={company.alt}
+            description={company.description}
           />
         ))}
       </VStack>
