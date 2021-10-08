@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.fe6a98ef.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fe6a98ef.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9ae3933c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9ae3933c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
-    "static/js/2.2a4a1dba.chunk.js": "/portfolio/static/js/2.2a4a1dba.chunk.js",
-    "static/js/2.2a4a1dba.chunk.js.map": "/portfolio/static/js/2.2a4a1dba.chunk.js.map",
+    "static/js/2.3ff56503.chunk.js": "/portfolio/static/js/2.3ff56503.chunk.js",
+    "static/js/2.3ff56503.chunk.js.map": "/portfolio/static/js/2.3ff56503.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/js/2.2a4a1dba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2a4a1dba.chunk.js.LICENSE.txt",
+    "static/js/2.3ff56503.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3ff56503.chunk.js.LICENSE.txt",
     "static/media/CROAS.2fa9642f.jpg": "/portfolio/static/media/CROAS.2fa9642f.jpg",
     "static/media/ENSA.a718ef8a.jpg": "/portfolio/static/media/ENSA.a718ef8a.jpg",
     "static/media/chakraui.49ce87d8.jpg": "/portfolio/static/media/chakraui.49ce87d8.jpg",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
-    "static/js/2.2a4a1dba.chunk.js",
-    "static/js/main.fe6a98ef.chunk.js"
+    "static/js/2.3ff56503.chunk.js",
+    "static/js/main.9ae3933c.chunk.js"
   ]
 }
